@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 .hero, .footer {
     background-color: #1F2937;
-    color: white;
 }
 
 .quote {
@@ -9,19 +16,64 @@
 
 .hero {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.hero-child {
-    flex:1;
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    float: left;
 }
 
-button {
-    background-color: #3882f6;
-    color: white;
-    border: none;
-    
+.links {
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+.link:first-child {
+    margin-left: 50%;
+}
+.link:last-child {
+    margin-right: 25%;
 }
 
-.hero-child:first-child {
-    margin-right: 20px;
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 54%;
+}
+
+.text {
+    width: 25%;
+}
+.maintext {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #f9faf8;
+    padding-right: 30px;
+    margin-bottom: 0%;
+}
+
+.subtext {
+    margin: 0%;
+}
+
+.subtext, .header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    margin-top: 10px;
+    margin-bottom: 20%;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
