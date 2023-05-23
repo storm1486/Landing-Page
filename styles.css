@@ -34,12 +34,20 @@ body {
     flex-direction: row;
     width: 50%;
     justify-content: space-between;
+    color: #E5E7EB;
+    font-size: 18px;
 }
+
 .link:first-child {
     margin-left: 50%;
 }
+
 .link:last-child {
-    margin-right: 25%;
+    margin-right: 10%;
+}
+
+a {
+    color: inherit;
 }
 
 .logo {
@@ -51,6 +59,7 @@ body {
 .text {
     width: 25%;
 }
+
 .maintext {
     font-size: 48px;
     font-style: extra-bold;
@@ -76,4 +85,12 @@ body {
 img {
     width: 300px;
     height: auto;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 10px;
+    color: white;
 }
