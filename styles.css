@@ -42,7 +42,7 @@ body {
 }
 
 .link:last-child {
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 a {
@@ -50,9 +50,10 @@ a {
 }
 
 .logo {
+
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 54%;
+    margin: 10px;
 }
 
 .text {
