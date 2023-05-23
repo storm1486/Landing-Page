@@ -10,8 +10,10 @@ body {
     background-color: #1F2937;
 }
 
-.quote {
+.quote_div {
     background-color: #E5E7EB;
+    text-align: center;
+    padding: 5%;
 }
 
 .hero {
@@ -137,5 +139,20 @@ button {
     padding: 0px;
     margin: 10px; 
     color: gray;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+
+.blockquote {
+    text-align: center;
+    text-indent: 30%;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: bold;
 }
 
