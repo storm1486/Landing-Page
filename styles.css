@@ -19,7 +19,8 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -67,7 +68,6 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    padding-right: 30px;
     margin-bottom: 0%;
 }
 
